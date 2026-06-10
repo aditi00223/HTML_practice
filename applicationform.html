@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+
+    <h2 align="center">Application Form</h2>
+
+    <form>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+
+            <tr>
+                <td>Name</td>
+                <td><input type="text" required></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" required></td>
+            </tr>
+
+            <tr>
+                <td>Phone</td>
+                <td><input type="tel" required></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" required></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <input type="checkbox" name="skill" value="html"> HTML
+                    <input type="checkbox" name="skill" value="css"> CSS
+                    <input type="checkbox" name="skill" value="javascript"> JavaScript
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Resume</td>
+                <td><input type="file" required></td>
+            </tr>
+
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
