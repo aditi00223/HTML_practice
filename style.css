@@ -1,0 +1,40 @@
+h1{
+    color: red;
+}
+#a01{
+    color: blue;
+    padding: 10px;
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgb(95, 10, 55);
+    border-radius: 20px;
+
+}
+.heading{
+    color: green;
+}
+#rollno{
+    color: orange;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+h1{
+    font-size: 50px;
+    font-family:  Helvetica;
+}
+.heading{
+    font-size: 40px;
+    font-family: Arial;
+}
+.box {
+    display: inline-block;
+
+    width: 150px;
+    height: 100px;
+    background-color: rgb(165, 31, 31);
+    text-align: center;
+
+    border: 2px solid black;
+}
