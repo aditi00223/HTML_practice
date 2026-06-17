@@ -57,3 +57,21 @@ h1{
     top: 0;
     right: 0;
 }
+h3:hover {
+    color: red;
+}
+.box {
+
+    width: 200px;
+
+    border: 2px solid black;
+
+    padding: 20px;
+
+}
+
+.box:hover {
+
+    background-color: yellow;
+
+}
